@@ -1,0 +1,25 @@
+.about {
+	display: grid;
+	height: 70vh;
+	border: 1px solid #000;
+	margin: 2rem 5rem;
+}
+
+.about-inner-div {
+	border: 1px solid green;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.about-us-title {
+	font-size: 2rem;
+	margin: 1rem 0 0 0;
+}
+
+.about-pic {
+	width: 90%;
+	height: 200px;
+	border-radius: 5px;
+	align-content: center;
+	justify-items: space-between;
+}

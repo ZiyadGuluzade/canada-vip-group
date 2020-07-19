@@ -1,0 +1,18 @@
+.contacts {
+	display: grid;
+	margin: 0 7vw 3vh 7vw;
+	grid-template-columns: 2fr 1fr;
+	background: #fff;
+	height: 60vh;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .1);
+}
+
+.address {
+	text-align: left;
+	padding: 2rem 3rem 2rem 3rem;
+}
+
+.addresses {
+	font-weight: bold;
+}

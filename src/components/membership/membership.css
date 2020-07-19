@@ -1,0 +1,10 @@
+.membership-title {
+	color: rgb(66, 66, 66);
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.membership-div {
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+}

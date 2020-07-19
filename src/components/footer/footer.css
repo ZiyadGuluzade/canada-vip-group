@@ -1,0 +1,14 @@
+.footer {
+	display: grid;
+	width: 100vw;
+	height: 20vh;
+	background: rgb(180, 180, 180);
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-content {
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: rgb(70, 70, 70);
+}

@@ -1,0 +1,68 @@
+.main-page {
+	background: #fff url('../../images/toronto11.jpg') center/cover;
+	height: 100vh;
+	position: relative;
+}
+
+.main-img {
+	width: 60vw;
+}
+
+.welcome {
+	box-sizing: border-box;
+	width: 50vw;
+	height: 50vh;
+	position: inline-block;
+	position: absolute;
+	padding: 5rem;
+	margin: 17vh 25vw 25vh 10vw;
+	padding: 4rem 2rem 2rem 2rem;
+	text-align: left;
+}
+
+.main-page-quote {
+	/* font-size: 40px; */
+	font-weight: 600;
+	color: rgb(51, 51, 51);
+	font-size: 3.2rem;
+	margin: 0.9rem 0;
+}
+
+.services-link {
+	color: white;
+	text-decoration: none;
+	background: rgb(61, 78, 175);
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.services-link:hover {
+	background: rgb(46, 61, 143);
+}
+
+hr.company-name {
+	width: 25vw;
+	height: 2px;
+	background: #ff2940;
+	border: #ff2940;
+	margin: 0.7rem 0 0 0;
+}
+
+.company-name {
+	color: #ff2940;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.membership-link {
+	color: rgb(46, 45, 45);
+	background: rgb(238, 238, 238);
+	padding: 10px 20px;
+	border-radius: 2px;
+	text-decoration: none;
+	margin-left: 1rem;
+}
+
+.membership-link:hover {
+	background: rgb(209, 209, 209);
+}

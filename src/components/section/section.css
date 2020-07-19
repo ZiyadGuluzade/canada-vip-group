@@ -1,0 +1,32 @@
+.section {
+	display: grid;
+	/* grid-template-rows: 3fr 1fr; */
+	/* outline: 1px solid #f0495a; */
+	outline-offset: -0.5rem;
+	padding: 1rem;
+	align-items: center;
+	justify-content: center;
+	height: 40vh;
+}
+
+.section-thumbnail {
+	width: 6rem;
+	margin: auto;
+}
+
+.service-name {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+a.section-link {
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 10px 15px;
+	border-radius: 8px;
+}
+
+a.section-link:hover {
+	color: #cf2f3f;
+	background: rgb(231, 231, 231);
+}
