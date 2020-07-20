@@ -6,7 +6,7 @@
 	background: rgba(243, 242, 250, 0.4);
 	display: flex;
 	justify-content: space-between;
-	height: 6rem;
+	height: 5rem;
 	width: 100vw;
 	z-index: 300;
 	position: fixed;
