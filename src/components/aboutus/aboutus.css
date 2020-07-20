@@ -3,12 +3,16 @@
 	height: 70vh;
 	border: 1px solid #000;
 	margin: 2rem 5rem;
+	background: url('../../images/purple_white.jpg');
 }
 
 .about-inner-div {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+}
+
+.about-us-text {
+	box-sizing: border-box;
 }
 
 .about-us-title {

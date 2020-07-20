@@ -3,19 +3,21 @@
 }
 
 .navbar {
-	background: rgba(243, 242, 250, 0.6);
+	background: rgba(243, 242, 250, 0.4);
 	display: flex;
 	justify-content: space-between;
-	height: 10%;
+	height: 6rem;
 	width: 100vw;
 	z-index: 300;
 	position: fixed;
 	align-items: center;
+	font-family: 'Nunito', sans-serif;
+
 }
 
 .logo {
 	display: grid;
-	margin: 1.4rem 0 1.4rem 10rem;
+	margin: 1.4rem 0 1.4rem 6rem;
 	float: left;
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -24,18 +26,22 @@
 
 a.logo-link {
 	text-decoration: none;
-	color: rgb(221, 75, 55);
-	font-weight: 800;
+	color: #fff;
+	font-weight: bold;
 	font-size: 1.6rem;
+	background: rgb(66, 27, 129);
+	padding: 0.2rem 0.5rem;
+	border-radius: 8px;
+	/* border: 0.3rem solid rgb(50, 17, 126); */
 }
 
 a.logo-link:hover {
-	color: rgb(216, 6, 6);
+	background: rgb(47, 16, 95);
 }
 
 .nav-links ul {
 	list-style-type: none;
-	margin-right: 3rem;
+	margin-right: 5rem;
 	padding: 0;
 	display: flex;
 	justify-content: flex-end;

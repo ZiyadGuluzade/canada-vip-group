@@ -2,6 +2,9 @@
 	background: #fff url('../../images/toronto11.jpg') center/cover;
 	height: 100vh;
 	position: relative;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+	font-stretch: semi-expanded;
 }
 
 .main-img {
@@ -15,7 +18,7 @@
 	position: inline-block;
 	position: absolute;
 	padding: 5rem;
-	margin: 17vh 25vw 25vh 10vw;
+	margin: 17vh 25vw 25vh 5vw;
 	padding: 4rem 2rem 2rem 2rem;
 	text-align: left;
 }
@@ -40,18 +43,11 @@
 	background: rgb(46, 61, 143);
 }
 
-hr.company-name {
-	width: 25vw;
-	height: 2px;
-	background: #ff2940;
-	border: #ff2940;
-	margin: 0.7rem 0 0 0;
-}
 
 .company-name {
-	color: #ff2940;
+	color: #ff8d2f;
 	font-weight: 600;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 .membership-link {

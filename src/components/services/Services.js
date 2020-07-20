@@ -9,24 +9,25 @@ class Services extends React.Component {
         <section id='services'>
           <div className='outer-services-div'> 
             <h2 className='services-title'>Our Best Services</h2>
-            <hr></hr>
+            
             <div className='services'>
               <div className='service'>
-                <Section name='Immigration' src={require('../../images/icons/passport.svg')} /></div>
+                <Section name='Immigration' src={require('../../images/icons/immigrationn.svg')} /></div>
 
               <div className='service'>
-                <Section name='Real Estate' src={require('../../images/icons/building.svg')}/></div>
+                <Section name='Real Estate' src={require('../../images/icons/real_estate.svg')}/></div>
 
               <div className='service'>
-                <Section name='Home Services' src={require('../../images/icons/house_keeping.svg')} /></div>
+                <Section name='Home Services' src={require('../../images/icons/home_services.svg')} /></div>
 
               <div className='service'>
-                <Section src={require('../../images/icons/healthcare.svg')} name='Health Services' /></div>
+                <Section src={require('../../images/icons/medical.svg')} name='Healthcare' /></div>
 
-              <div className='service'><Section name='Car Services' src={require('../../images/icons/car3.svg')}/>
+              <div className='service'><Section name='Car Services' src={require('../../images/icons/caaar.svg')}/>
               </div>
-              <div className='service'><Section name='Beauty' src={require('../../images/icons/barber.svg')}/></div>
+              <div className='service'><Section name='Beauty' src={require('../../images/icons/beauty.svg')}/></div>
             </div>
+            <a src='#' className='full-list'>See full list of services</a>
           </div>
         </section>
       </React.Fragment>

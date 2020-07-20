@@ -8,7 +8,7 @@ class Navbar extends React.Component {
       <React.Fragment>
         <nav className='navbar'>
           <div className='logo'>
-            <a className='logo-link'href='#main'>CVP</a>
+            <a className='logo-link'href='#main'>CVG</a>
           </div>
           <div className='nav-links'>
             <ul>

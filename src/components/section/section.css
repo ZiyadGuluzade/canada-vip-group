@@ -1,32 +1,26 @@
 .section {
 	display: grid;
-	/* grid-template-rows: 3fr 1fr; */
-	/* outline: 1px solid #f0495a; */
-	outline-offset: -0.5rem;
 	padding: 1rem;
 	align-items: center;
 	justify-content: center;
-	height: 40vh;
+	height: 27vh;
 }
 
 .section-thumbnail {
-	width: 6rem;
+	height: 3.6rem;
 	margin: auto;
+	fill: red;
 }
 
 .service-name {
-	font-size: 2rem;
-	font-weight: 400;
+	font-size: 1.45rem;
+	font-weight: 700;
+	color: rgb(67, 67, 68);
 }
 
 a.section-link {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	font-weight: 600;
-	padding: 10px 15px;
-	border-radius: 8px;
-}
-
-a.section-link:hover {
-	color: #cf2f3f;
-	background: rgb(231, 231, 231);
+	color: rgb(30, 38, 83);
+	cursor: pointer;
 }

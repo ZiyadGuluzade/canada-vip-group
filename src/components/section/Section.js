@@ -6,9 +6,8 @@ class Section extends React.Component {
     return(
       <React.Fragment>
         <div className='section'>
-          <span className='service-name'>{this.props.name}</span>
           <img className='section-thumbnail' src={this.props.src}/>
-          <a src='#' className='section-link'>Learn More</a>
+          <span className='service-name'>{this.props.name}</span>
         </div>
       </React.Fragment>
     )

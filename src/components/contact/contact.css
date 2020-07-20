@@ -1,11 +1,23 @@
+#contact {
+	background: rgb(248, 237, 255);
+	padding: 5rem 0;
+}
+
 .contacts {
 	display: grid;
-	margin: 0 7vw 3vh 7vw;
+	font-family: 'Nunito', sans-serif;
+	margin: 0 7vw 0 7vw;
 	grid-template-columns: 2fr 1fr;
 	background: #fff;
-	height: 60vh;
+	height: 80vh;
 	border-radius: 5px;
-	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .1);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .05);
+}
+
+.contacts-title {
+	color: rgb(66, 66, 66);
+	font-size: 2rem;
+	font-family: 'Nunito', sans-serif;
 }
 
 .address {

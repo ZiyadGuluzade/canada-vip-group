@@ -2,13 +2,31 @@
 	display: grid;
 	width: 100vw;
 	height: 20vh;
-	background: rgb(180, 180, 180);
+	background: rgb(67, 23, 97);
 	align-items: center;
 	justify-content: center;
 }
 
 .footer-content {
 	font-size: 1.3rem;
-	font-weight: 500;
-	color: rgb(70, 70, 70);
+	font-weight: 700;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+}
+
+ul.footer-list {
+	display: flex;
+	list-style-type: none;
+	font-family: 'Nunito', sans-serif;
+	margin: auto;
+	color: rgb(220, 192, 238);
+}
+
+ul.footer-list li {
+	margin: 0 1rem;
+	cursor: pointer;
+}
+
+ul.footer-list li a:hover {
+	color: rgb(201, 150, 233);
 }
